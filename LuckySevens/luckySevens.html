@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/JavaScript" src="luckySevens.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+		<style>
+		body {
+				font-family: Georgia;
+				font-weight: bold;
+			}
+		table {
+				border: 1px solid black;
+			}
+		th {
+				background-color: grey;
+			}
+		tbody tr:nth-child(even) { 
+                background-color: lightgrey; 
+            } 
+		</style>
+</head>
+<body>
+<center>
+<div class="style1">
+	<h1 style="font-size:80px"><strong>Lucky Sevens</strong></h1>
+	<br/>
+		Starting Bet: $ <input class="txtBox" type="text" id="initialBet" name="bet" value="0.00">
+		<br/><br/>
+		<button onclick="luckySevens()" id="p2" class="playButton" type="button">Play</button>
+	</form>
+</div>
+<hr/>
+
+	<h1 style="font-size:30px"><strong>Results</strong></h1>
+	
+<div style="text-align:center;" id="p1"></div>
+</center>
+</body>
+</html>
