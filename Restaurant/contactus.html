@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+		<title>Contact Us</title>
+		
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
+		<style>
+			nav {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			}
+			nav .btn {
+			background-color: indianred;
+			color: white; 
+			}
+			nav .btn:hover {
+			font-weight: bold;
+			}
+			body {
+				background-color: #D8D8D8;
+				font-family: "Palatino Linotype";
+				max-width: 1000px;
+				margin: 0 auto;
+			}
+			a{
+			font-weight: none;
+			}
+			a:visited {
+			  color: black;
+			}
+			a:active {
+			    text-decoration: none;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+	
+		<header>
+			<h1 style="font-family: Brush Script MT;font-size:100px"><center>Davis' Eats</center></h1>
+		</header>
+				<center>
+            <nav> 
+			 <div class="w3-padding w3-xlarge">
+				<a class="fa fa-home" href="index.html">Home</a>
+				<a class="btn badge-pill" href="menu.html">Menu</a>
+				<a class="btn badge-pill" href="contactus.html">Contact Us</a>
+				</div>
+            </nav>
+			</center>
+				<br/>
+		<center>
+		<label for="name"><b>Name:</b></label>
+		<input type="text" id="name" name="name"> <br/><br/>
+		
+		<label for="email"><b>Email:</b></label>
+		<input type="text" id="email" name="email"> <br/><br/>
+		
+		<label for="phone"><b>Phone:</b></label>
+		<input type="text" id="phone" name="phone"> <br/><br/>
+		
+		<label for="reason"><b>Reason for Inquiry:</b></label>
+		<select id="reason" name="reason">
+			<option value="catering" selected>Catering</option>
+			<option value="private">Private Party</option>
+			<option value="feedback">Feedback</option>
+			<option value="Other">Other</option>
+		</select>
+		<br/><br/>
+		
+		<label for="info"><b>Additional Information:</b></label>
+		<textarea id="info" name="info"></textarea>		
+		<br><br>
+		
+			<b>Have you been to the restaurant?</b>
+			<input type="radio" id="choice1" name="haveyoubeen" value="yes">
+			<label for="choice1">Yes</label>
+			<input type="radio" id="choice2" name="haveyoubeen" value="no">
+			<label for="choice2">No</label>
+			<br/><br/>
+			
+			<b>Best days to contact you:</b>
+			<input type="checkbox" id="monday" name="interest" value="monday">
+			<label for="monday">M</label>
+			<input type="checkbox" id="tuesday" name="interest" value="tuesday">
+			<label for="tuesday">T</label>
+			<input type="checkbox" id="wednesday" name="interest" value="wednesday">
+			<label for="wednesday">W</label>
+			<input type="checkbox" id="thursday" name="interest" value="thursday">
+			<label for="thursday">Th</label>
+			<input type="checkbox" id="friday" name="interest" value="friday">
+			<label for="friday">F</label>
+			<br/><br/>
+			
+			<input type="submit" name="send" value="Send Request">
+					<center/>
+	</body>
+	
+	<footer>
+			<hr/>
+			<center>
+			<p>1234 E Davis St, Milwaukee, WI, 53299</p>
+			<p>(414)123-4567</p>
+			</center>
+            </footer>
+</html>
